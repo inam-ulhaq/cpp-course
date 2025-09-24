@@ -1,0 +1,30 @@
+// Title: Logical Operators
+// Author: Inam Ul Haq
+// Description: 
+//      Logical operators are used to combine or modify conditional statements 
+//      and produce a single true/false result. They are often used inside 
+//      if/else statements or loops to create compound conditions.
+//
+//      Main Logical Operators in C++:
+//
+//          &&   Logical AND
+//               - True only if BOTH conditions are true.
+//               - Example: (x > 0 && y > 0)
+//
+//          ||   Logical OR
+//               - True if AT LEAST ONE of the conditions is true.
+//               - Example: (x == 0 || y == 0)
+//
+//          !    Logical NOT
+//               - Inverts the truth value of a condition.
+//               - Example: !(x > 0)  // true if x <= 0
+//
+//      Truth Table Summary:
+//          A     B     A && B     A || B     !A
+//          T     T       T          T         F
+//          T     F       F          T         F
+//          F     T       F          T         T
+//          F     F       F          F         T
+//
+//      Using logical operators allows writing more complex conditions 
+//      in a readable and efficient way.
